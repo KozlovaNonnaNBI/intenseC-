@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double x, y, a, b; 
+    cout << "Введите вес шоколадных конфет (в кг): ";
+    cin >> x;
+    cout << "Введите стоимость шоколадных конфет (в рублях): ";
+    cin >> a;
+    cout << "Введите вес ирисок (в кг): ";
+    cin >> y;
+    cout << "Введите стоимость ирисок (в рублях): ";
+    cin >> b;
+
+    double costchoco = a / x; 
+    double costiris = b / y; 
+    double ratio = costchoco / costiris; 
+
+    cout << "1 кг шоколадных конфет стоит " << costchoco << " рублей" << endl;
+    cout << "1 кг ирисок стоит " << costiris << " рублей" << endl;
+    cout << "Шоколадные конфеты дороже ирисок в " << ratio << " раз(а)" << endl;
+
+    return 0;
+}
