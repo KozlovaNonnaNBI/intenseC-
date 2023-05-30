@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, seconds;
+    cout << "Введите количество секунд, прошедших с начала суток: ";
+    cin >> N;
+
+    seconds = N % 60; 
+
+    cout << "С начала последней минуты прошло: " << seconds << " секунд" << endl;
+
+    return 0;
+}
