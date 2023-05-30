@@ -1,0 +1,20 @@
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a,b, c, V, S;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> c;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    V= a*b*c;
+    S=2*(a*b+b*c+a*c);
+    cout << "Ответ: " << V << ", " << S << endl;
+
+    return 0;
+}
