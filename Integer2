@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double M;
+
+    cout << "Введите массу в килограммах: ";
+    cin >> M;
+
+    int tons = M / 1000; 
+
+    cout << "Количество полных тонн: " << tons;
+
+    return 0;
+}
