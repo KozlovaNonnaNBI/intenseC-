@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int L;
+
+    cout << "Введите расстояние в сантиметрах: ";
+    cin >> L;
+
+    int meters = L / 100; 
+
+    cout << "Количество полных метров: " << meters;
+
+    return 0;
+}
